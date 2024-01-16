@@ -15,5 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "IOS Bottom Sheet"
 include(":app")
-include(":app:iosbottomsheet")
 include(":iosbottomsheet")
