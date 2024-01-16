@@ -47,3 +47,33 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
 }
 
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.github.CodeWithAthari"
+            artifactId = "IOS-Bottom-Sheet-Android"
+            version = "1.0.3"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
